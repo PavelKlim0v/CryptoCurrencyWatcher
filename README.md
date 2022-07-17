@@ -1,6 +1,6 @@
 # CryptoCurrencyWatcher
     CryptoCurrencyWatcher (Spring Boot, Maven, Spring Boot Security, OAuth2, Spring Data Jpa,
-      MySQL, Thymeleaf, Log4j, Jackson)
+                           MySQL, Thymeleaf, Log4j, Jackson)
      1.Spring Data Jpa, MySQL
       (Хранение и обновление данных)
      2.Spring Boot Security, OAuth2
