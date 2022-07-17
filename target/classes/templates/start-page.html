@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Coin List</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <p th:text="${list}"></p>
+        <div class="col-sm-3">
+            <div>
+                <a th:href="'/'" class="btn btn-warning">
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-success">Обновить</button>
+                    </div>
+                </a>
+            </div>
+            <p>Список Coin:</p>
+            <div th:each="elem : ${list}" class="alert alert-info mt-2">
+                <a th:href="'/coin/' + ${elem.id}" class="btn btn-warning">
+                    <p th:text="${elem.symbol}">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
