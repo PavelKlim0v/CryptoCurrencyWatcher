@@ -1,15 +1,15 @@
 # CryptoCurrencyWatcher
   CryptoCurrencyWatcher ( Spring Boot, Maven, Spring Boot Security, OAuth2, Spring Data Jpa, MySQL, Thymeleaf, Log4j, Jackson )
-	  1.Spring Data Jpa, MySQL
-		  (Хранение и обновление данных)
-	  2.Spring Boot Security, OAuth2
-		  (Аутентификация произвадится при помощи cloud.google.com)
+    1.Spring Data Jpa, MySQL
+      (Хранение и обновление данных)
+    2.Spring Boot Security, OAuth2
+      (Аутентификация произвадится при помощи cloud.google.com)
     3.Log4j
       (Логирование данных. При изменении цены более чем на 1% данные записываются в лог-файл)
     4.Jackson
       (Преобразование данных типа json)
-	  5.Thymeleaf
-		  (Маршрутизатор)
+    5.Thymeleaf
+      (Маршрутизатор)
   Задачи:
     - Просмотр списка криптовалют
     - Просмотр актуальной цены для указаной криптовалюты
